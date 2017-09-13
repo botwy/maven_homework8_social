@@ -6,9 +6,9 @@ import com.homework8.social_wall.IWallSendMessage;
 
 import java.util.List;
 
-public abstract class WallModel implements IWallReadMessages,IWallSendMessage {
+public abstract class Wall implements IWallReadMessages,IWallSendMessage {
     private String id;
-    private List<WallMessagesModel> messages;
+    private List<WallMessage> list_messages;
     private IUser user_owner;
 
 }

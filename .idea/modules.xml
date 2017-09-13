@@ -3,9 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/chat/chat.iml" filepath="$PROJECT_DIR$/chat/chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat/chat.iml" filepath="$PROJECT_DIR$/chat/chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/friends/friends.iml" filepath="$PROJECT_DIR$/friends/friends.iml" />
       <module fileurl="file://$PROJECT_DIR$/friends/friends.iml" filepath="$PROJECT_DIR$/friends/friends.iml" />
       <module fileurl="file://$PROJECT_DIR$/gift/gift.iml" filepath="$PROJECT_DIR$/gift/gift.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gift/gift.iml" filepath="$PROJECT_DIR$/gift/gift.iml" />
       <module fileurl="file://$PROJECT_DIR$/homework8_social.iml" filepath="$PROJECT_DIR$/homework8_social.iml" />
+      <module fileurl="file://$PROJECT_DIR$/photo/photo.iml" filepath="$PROJECT_DIR$/photo/photo.iml" />
       <module fileurl="file://$PROJECT_DIR$/photo/photo.iml" filepath="$PROJECT_DIR$/photo/photo.iml" />
       <module fileurl="file://$PROJECT_DIR$/users/users.iml" filepath="$PROJECT_DIR$/users/users.iml" />
       <module fileurl="file://$PROJECT_DIR$/wall/wall.iml" filepath="$PROJECT_DIR$/wall/wall.iml" />

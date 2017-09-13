@@ -1,22 +1,30 @@
 package com.homework8.social_users.domain;
 
 
-import com.homework8.social_users.IEditProfile;
+import com.homework8.social_users.IProfileEditor;
 import com.homework8.social_users.IUser;
-import com.homework8.social_users.IViewProfile;
+import com.homework8.social_users.IProfileViewer;
 
-public abstract class UserModel implements IUser,IViewProfile,IEditProfile {
+public class User implements IUser,IProfileViewer,IProfileEditor {
     private String user_id;
     private String user_name;
     private String email;
     private String password;
     private String city;
 
-    public UserModel(String user_id, String user_name, String email, String password, String city) {
+
+    public User(String user_id, String user_name, String email, String password, String city) {
         this.user_id = user_id;
         this.user_name = user_name;
         this.email = email;
         this.password = password;
+        this.city = city;
+    }
+
+    public User(String user_id, String user_name, String email, String city) {
+        this.user_id = user_id;
+        this.user_name = user_name;
+        this.email = email;
         this.city = city;
     }
 
