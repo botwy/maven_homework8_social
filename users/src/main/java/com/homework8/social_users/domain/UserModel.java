@@ -5,7 +5,7 @@ import com.homework8.social_users.IProfileEditor;
 import com.homework8.social_users.IUser;
 import com.homework8.social_users.IProfileViewer;
 
-public class User implements IUser,IProfileViewer,IProfileEditor {
+public abstract class UserModel implements IUser,IProfileViewer,IProfileEditor {
     private String user_id;
     private String user_name;
     private String email;
@@ -13,7 +13,7 @@ public class User implements IUser,IProfileViewer,IProfileEditor {
     private String city;
 
 
-    public User(String user_id, String user_name, String email, String password, String city) {
+    public UserModel(String user_id, String user_name, String email, String password, String city) {
         this.user_id = user_id;
         this.user_name = user_name;
         this.email = email;
@@ -21,7 +21,7 @@ public class User implements IUser,IProfileViewer,IProfileEditor {
         this.city = city;
     }
 
-    public User(String user_id, String user_name, String email, String city) {
+    public UserModel(String user_id, String user_name, String email, String city) {
         this.user_id = user_id;
         this.user_name = user_name;
         this.email = email;

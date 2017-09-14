@@ -5,6 +5,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>gift</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.botwy</groupId>
+            <artifactId>photo</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.botwy</groupId>
+            <artifactId>users</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 
     <parent>

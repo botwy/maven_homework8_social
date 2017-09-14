@@ -1,5 +1,5 @@
 package com.homework8.social_wall;
 
-public interface IWallSendMessage {
+public interface IWallSenderMessage {
     void sendMessage(String text);
 }

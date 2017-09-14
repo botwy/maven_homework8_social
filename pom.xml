@@ -15,9 +15,6 @@
         <module>gift</module>
         <module>photo</module>
         <module>friends</module>
-        <module>chat</module>
-        <module>photo</module>
-        <module>gift</module>
     </modules>
 
     <properties>
