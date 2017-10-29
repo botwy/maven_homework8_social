@@ -5,6 +5,10 @@ import com.homework8.social_users.IProfileEditor;
 import com.homework8.social_users.IUser;
 import com.homework8.social_users.IProfileViewer;
 
+
+/**
+ * Модуль users Абстрактная модель user
+ */
 public abstract class UserModel implements IUser,IProfileViewer,IProfileEditor {
     private String user_id;
     private String user_name;

@@ -2,6 +2,9 @@ package com.homework8.social_photo.domain;
 
 import com.homework8.social_photo.IPhoto;
 
+/**
+ * Модуль photo Абстрактная модель для работы с фото
+ */
 public abstract class PhotoModel implements IPhoto{
     private String id;
     private String file_name;

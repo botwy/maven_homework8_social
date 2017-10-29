@@ -6,6 +6,10 @@ import com.homework8.social_wall.IWallAllMessagesHandler;
 
 import java.util.List;
 
+/**
+ * Модуль wall Абстрактная модель по работе со стеной
+ * Этот модуль зависит от модуля Пользователи
+ */
 public abstract class WallModel implements IWall, IWallAllMessagesHandler {
     private String id;
     private List<WallMessageModel> list_messages;
